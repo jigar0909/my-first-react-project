@@ -1,0 +1,192 @@
+header .header-block {
+  height: auto;
+  background-color: #1a1a1a;
+  padding: 15px;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -khtml-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  outline: 0;
+  outline-offset: 0;
+}
+
+header .header-block a {
+  color: #e6bc55;
+  text-decoration: none;
+}
+
+header .header-block a:hover {
+  color: #ffffff;
+}
+
+.header {
+  text-align: center;
+}
+
+a.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-15 {
+  margin-left: 20px;
+}
+
+.partner {
+  margin: 20px auto;
+}
+
+.footerText {
+  color: #e6bc55;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+.mobile-header {
+  display: none;
+}
+.web-header {
+  display: inline;
+}
+
+.title {
+  font-family: "Cera Pro Bold";
+  font-size: 44px;
+  color: #252525;
+  line-height: 50px;
+  display: block;
+  margin: 60px 10px;
+}
+
+.btnLink {
+  background-color: #88c74a;
+  color: #ffffff;
+  border: 2px solid #88c74a;
+  text-decoration: none;
+  width: 300px;
+  border-radius: 35px;
+  padding: 15px 30px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.btnLinkShop {
+  width: auto;
+}
+
+.btnLink.first {
+  margin-bottom: 20px;
+}
+
+a.btnLink:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #88c74a;
+}
+.bnr img {
+  max-width: 100%;
+}
+
+/*Banner */
+.banner-container {
+  padding: 60px 0;
+  margin: 20px 0;
+  background-image: url("../images/dow_banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.vcenter {
+  display: flex;
+    align-items: center;
+
+}
+
+.Imgbanner img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.quick-banner {
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0;
+  border-radius: 15px;
+}
+
+.quick-banner-left {
+  background-image: url("../images/quick_banner_2_bg.jpg");
+}
+
+.quick-banner-right {
+  background-image: url("../images/quick_banner_3_bg.jpg");
+}
+
+.quick-banner h2 {
+  margin-top: 20px;
+}
+.mtop {
+  margin-top: 30px;
+}
+
+.rightPartner {
+  text-align: right;
+}
+
+.leftPartner {
+  text-align: left;
+}
+
+/* .quick-banner img {
+  
+} */
+
+.spacerCls {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Media */
+@media only screen and (max-width: 600px) {
+  .mobile-header {
+    display: inline;
+  }
+
+  .web-header {
+    display: none;
+  }
+  .banner-container {
+    padding: 10px 0;
+  }
+  .title {
+    margin: 20px 0px;
+    font-size: 38px;
+  }
+
+  .bnr img {
+    margin-top: 20px;
+    max-width: 85%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-container {
+    padding: 10px 0;
+  }
+  .title {
+    margin: 20px 0px;
+    font-size: 38px;
+  }
+}
